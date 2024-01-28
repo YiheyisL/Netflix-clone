@@ -3,15 +3,18 @@ import "./footer.css";
 import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+import XIcon from "@mui/icons-material/X";
+import { ClassNames } from "@emotion/react";
 
 const Footer = () => {
   return (
     <div className="footer_outer_container">
       <div className="footer_inner_container">
         <div className="footer_icons">
-          <FacebookOutlinedIcon />
-          <InstagramIcon />
-          <YouTubeIcon />
+          <FacebookOutlinedIcon className="facebook" />
+          <InstagramIcon className="instagram" />
+          <YouTubeIcon className="youtube" />
+          <XIcon className="x" />
         </div>
 
         <div className="footer_data">
